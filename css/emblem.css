@@ -19,4 +19,20 @@
   max-height: 100%;
   filter: grayscale(1);
   opacity: 0.8;
+  animation: rotate 10000ms linear;
+  animation-iteration-count: infinite;
+}
+
+/*------------------------------------------------------------------------------
+  ANIMATION TO SPIN THE EMBLEM IN BACKGROUND
+------------------------------------------------------------------------------*/
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }

@@ -1,0 +1,34 @@
+/*------------------------------------------------------------------------------
+  FOR SMOOTH FADING OF CONTENT
+------------------------------------------------------------------------------*/
+
+.has-js .fade-in {
+  opacity: 0;
+  animation: fade-in 750ms ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Fades in emblem */
+.fade-in.fade-in__emblem {
+  animation-delay: 750ms;
+}
+
+/* Fades in symbols */
+.fade-in.fade-in__symbols {
+  animation-delay: 1500ms;
+}
+
+/* Fades in navigation links and logo */
+.fade-in.fade-in__main {
+  animation-delay: 2500ms;
+}

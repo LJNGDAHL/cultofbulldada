@@ -6,3 +6,16 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+/* A filter that combines Bulldada purple and Kazakhstan golden */
+
+.front::before {
+  background-image: linear-gradient(to bottom right,var(--golden),var(--purple));
+  bottom: 0;
+  content: '';
+  left: 0;
+  opacity: 0.6;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
