@@ -1,0 +1,40 @@
+/* TO BE IMPORTED FIRST ------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600|Lato:300,400,700');
+@import "normalize.css";
+@import "variables.css";
+
+/* SORTED ALPHABETICALLY -----------------------------------------------------*/
+@import "emblem.css";
+@import "front.css";
+@import "navigation.css";
+@import "symbols.css";
+@import "tb-content";
+@import "typography.css";
+
+/*------------------------------------------------------------------------------
+  GENERAL STYLES
+------------------------------------------------------------------------------*/
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  width: 95vw;
+}
+
+@media screen and (min-width: 900px) {
+  .main-content {
+    width: 70vw;
+  }
+}
+
+.center {
+  position: relative;
+}
+
+.logo {
+  margin-top: 1rem;
+  width: 100%;
+}

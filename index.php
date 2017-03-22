@@ -1,5 +1,6 @@
 <?php @include 'header.php'; ?>
-  <a class="navigation__link" href="#">Menu</a>
+<body class="front">
+  <a class="navigation__link link" href="">Menu</a>
   <img class="symbol symbol--top-left" src="assets/img/symbol.png" alt="Cult of Bulldada symbol">
   <img class="symbol symbol--top-right"src="assets/img/symbol.png" alt="Cult of Bulldada symbol">
   <img class="symbol symbol--bottom-right"src="assets/img/symbol.png" alt="Cult of Bulldada symbol">
@@ -11,14 +12,15 @@
     <div class="center">
       <nav class="main-navigation">
         <ul class="main-navigation__list">
-          <li>About</li>
-          <li>Our God</li>
-          <li>Our Mission</li>
-          <li>Bulldada</li>
-          <li>Join us</li>
+          <li><a class="link" href="about.php">About</a></li>
+          <li><a class="link" href="god.php">Our God</a></li>
+          <li><a class="link" href="mission.php">Our Mission</a></li>
+          <li><a class="link" href="bulldada.php">Bulldada</a></li>
+          <li><a class="link" href="join.php">Join us</a></li>
         </ul>
       </nav>
       <img class="logo "src="assets/img/logo-final.png" alt="Logotype of Cult of Bulldada Kazakhstan">
     </div>
   </main>
+</body>
 <?php @include 'footer.php'; ?>

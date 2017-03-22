@@ -4,7 +4,8 @@
   "description": "Final project in the course Grafiska Verktyg held at Medieinstitutet.",
   "main": "index.js",
   "scripts": {
-    "build": "cssnext -c css/master.css assets/main.css"
+    "build": "cssnext -c css/base.css assets/main.css",
+    "watch": "cssnext -w css/base.css assets/main.css"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,9 @@
+.tb-content {
+  margin: 5rem auto;
+  padding-right: 10rem;
+  width: 29rem;
+}
+
+.tb-content__paragraph {
+  margin-top: 2rem;
+}

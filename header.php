@@ -7,4 +7,3 @@
   <link rel="stylesheet" href="assets/main.css">
   <title>Cult of Bulldada | Kazakhstan</title>
 </head>
-<body>
