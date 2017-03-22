@@ -4,6 +4,7 @@
 @import "variables.css";
 
 /* SORTED ALPHABETICALLY -----------------------------------------------------*/
+@import "content-page-bgimg.css";
 @import "emblem.css";
 @import "fade-in.css";
 @import "front.css";
@@ -11,6 +12,7 @@
 @import "symbols.css";
 @import "tb-content";
 @import "typography.css";
+@import "utilities.css";
 
 /*------------------------------------------------------------------------------
   GENERAL STYLES
@@ -29,10 +31,6 @@
   .main-content {
     width: 70vw;
   }
-}
-
-.center {
-  position: relative;
 }
 
 .logo {

@@ -6,12 +6,20 @@
   display: none;
 }
 
+
 @media screen and (min-width: 900px) {
   .symbol {
     display: inline-block;
     position: absolute;
     height: 8rem;
     margin: 1rem;
+  }
+
+  .tb-content__symbol {
+    height: 20rem;
+    margin: 1rem 2rem;
+    left: 0;
+    top: 0;
   }
 
   .symbol--top-left {

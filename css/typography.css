@@ -1,6 +1,7 @@
 body {
   font-family: 'Lato', sans-serif;
   font-size: 1rem;
+  color: var(--dark);
 }
 
 h1,
@@ -12,9 +13,28 @@ h6 {
   font-family: 'Oswald', sans-serif;
   font-size: 5rem;
   letter-spacing: 0.05em;
-  margin: 0;
   text-transform: uppercase;
 }
+
+.tb-content__headline {
+  color: var(--white);
+  font-size: 10rem;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 5px var(--shadow);
+}
+
+/* TODO: REMOVE IF NOT NEEDED */
+/*@keyframes glowing {
+  0% {
+    text-shadow: 0 0 70px var(--purple-transparent);
+  }
+  50% {
+    text-shadow: 0 0 70px var(--golden);
+  }
+  100% {
+    text-shadow: 0 0 70px var(--purple-transparent);
+  }
+}*/
 
 /*------------------------------------------------------------------------------
   PARAGRAPH
@@ -22,16 +42,21 @@ h6 {
 
 .tb-content__paragraph {
   line-height: 1.4;
+  padding-top: 2rem;
+  width: 29rem;
+  margin: 0;
 }
 
-.tb-content__paragraph::first-line {
-  font-weight: 700;
+.tb-content__paragraph:first-of-type {
+  background-image: linear-gradient(to bottom right,var(--golden),var(--purple));
+  box-shadow: 4px 4px 0 var(--shadow);
+  color: var(--white);
+  padding: 5rem 2rem 4rem;
+  font-size: 1.3rem;
 }
 
-.tb-content__paragraph::first-letter {
-  font-size: 150%;
-  font-weight: 700;
-  line-height: 0;
+.tb-content__paragraph:last-of-type {
+  padding-bottom: 10rem;
 }
 
 /*------------------------------------------------------------------------------

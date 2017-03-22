@@ -1,14 +1,14 @@
-.front {
-  height: 100vh;
-  width: 100vw;
-  background-image: url('../assets/img/kazakhstan-mountain.jpg');
+.content-body {
   background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
+  padding-top: 30vh;
 }
 
 /* A filter that combines Bulldada purple and Kazakhstan golden */
-.front::before {
+.content-body::before {
   background-image: linear-gradient(to bottom right,var(--golden),var(--purple));
   bottom: 0;
   content: '';
@@ -17,4 +17,13 @@
   position: absolute;
   right: 0;
   top: 0;
+  z-index: -1;
+}
+
+.content-body__god {
+  background-image: url('../assets/img/sunset.jpg');
+}
+
+.content-body__about {
+  background-image: url('../assets/img/space-telescope.jpg');
 }

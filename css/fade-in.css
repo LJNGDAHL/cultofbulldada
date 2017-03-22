@@ -20,15 +20,15 @@
 
 /* Fades in emblem */
 .fade-in.fade-in__emblem {
-  animation-delay: 750ms;
+  animation-delay: 250ms;
 }
 
 /* Fades in symbols */
 .fade-in.fade-in__symbols {
-  animation-delay: 1500ms;
+  animation-delay: 1000ms;
 }
 
 /* Fades in navigation links and logo */
 .fade-in.fade-in__main {
-  animation-delay: 2500ms;
+  animation-delay: 1750ms;
 }

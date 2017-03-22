@@ -1,0 +1,8 @@
+.relative-container {
+  position: relative;
+}
+
+.center-content {
+  margin: 0 auto;
+  width: 65vw;
+}
