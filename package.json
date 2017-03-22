@@ -1,0 +1,20 @@
+{
+  "name": "cultofbulldada",
+  "version": "1.0.0",
+  "description": "Final project in the course Grafiska Verktyg held at Medieinstitutet.",
+  "main": "index.js",
+  "scripts": {
+    "build": "cssnext -c css/master.css assets/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LJNGDAHL/cultofbulldada.git"
+  },
+  "author": "Katarina Ljungdahl <katarina@folkungagatan54.se>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "cssnext": "^1.8.4",
+    "normalize.css": "^5.0.0"
+  }
+}

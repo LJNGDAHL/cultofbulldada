@@ -1,0 +1,32 @@
+.navigation__link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+
+.main-navigation {
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+  /*text-shadow: 0px 1px 14px var(--purple);*/
+}
+
+.main-navigation__list {
+  display: none;
+}
+
+@media screen and (min-width: 900px) {
+  .navigation__link {
+    display: none;
+  }
+
+  .main-navigation__list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 4rem;
+  }
+}

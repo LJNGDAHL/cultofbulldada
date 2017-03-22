@@ -1,0 +1,22 @@
+/*------------------------------------------------------------------------------
+  EMBLEM (USED IN BACKGROUND AS A DESIGN ELEMENT)
+------------------------------------------------------------------------------*/
+
+.emblem {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.emblem__item {
+  display: block;
+  max-height: 100%;
+  filter: grayscale(1);
+  opacity: 0.8;
+}
