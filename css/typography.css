@@ -39,17 +39,17 @@ h6 {
 ------------------------------------------------------------------------------*/
 
 .link {
-  border-bottom: 3px solid transparent;
   color: var(--white);
   font-size: 1.8rem;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
-  transition: color 250ms ease-in, border-bottom 250ms ease-in;
+  text-shadow: 0 0 23px var(--purple-transparent);
+  transition: color 400ms ease-in, text-shadow 250ms ease-in;
 }
 
 .link:hover {
-  border-bottom: 3px solid var(--purple);
+  text-shadow: 0 0 23px var(--purple-full);
   color: var(--purple);
 }
 

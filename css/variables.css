@@ -1,6 +1,8 @@
 :root {
   --dark: #000000;
   --purple: #a1008a;
+  --purple-full: rgba(161, 0, 138, 1);
+  --purple-transparent: rgba(161, 0, 138, 0);
   --white: #ffffff;
   --blue: #00afca;
   --golden: #fec50c;

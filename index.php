@@ -23,5 +23,6 @@
       </nav>
       <img class="logo "src="assets/img/logo-final.png" alt="Logotype of Cult of Bulldada Kazakhstan">
     </div>
+    <audio src="assets/sound/background.wav" autoplay></audio>
   </main>
 <?php @include 'footer.php'; ?>
