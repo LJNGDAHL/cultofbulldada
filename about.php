@@ -69,5 +69,6 @@
     <iframe class="tb-content__playlist"
      src="https://embed.spotify.com/?uri=spotify%3Auser%3Akatarina.ljungdahl%3Aplaylist%3A26jS7RT1Rujs2HbY3YVaM2" frameborder="0" allowtransparency="true"></iframe>
   </div>
+  <audio src="assets/sound/background.wav" autoplay></audio>
 </body>
 <?php @include 'footer.php'; ?>

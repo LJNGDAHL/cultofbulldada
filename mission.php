@@ -19,5 +19,7 @@
       <p class="tb-content__paragraph">This religion, devised by precise mathematical formulae, weirder than the most obscure UFO/Atlantis cults, is invaluable to all superior renegades who, at any time, are justifiably on the edge of insanity and can be made whole only by developing a seventh sense of bludgeon humor.</p>
     </div>
   </div>
+  <audio src="assets/sound/background.wav" autoplay></audio>
+  <?php // TODO: Add description of ambassador ?>
 </body>
 <?php @include 'footer.php'; ?>

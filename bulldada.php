@@ -24,5 +24,5 @@
     </div>
   </div>
 </body>
-<?php // TODO: Embed video ?>
+<audio src="assets/sound/background.wav" autoplay></audio>
 <?php @include 'footer.php'; ?>

@@ -9,6 +9,8 @@
 
 /* A filter that combines Bulldada purple and Kazakhstan golden */
 .front::before {
+  height: 100vh;
+  width: 100vw;
   background-image: linear-gradient(to bottom right,var(--blue),var(--purple));
   bottom: 0;
   content: '';

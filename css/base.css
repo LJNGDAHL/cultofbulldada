@@ -5,11 +5,11 @@
 
 /* SORTED ALPHABETICALLY -----------------------------------------------------*/
 @import "buttons.css";
-@import "chat.css";
 @import "content-page-bgimg.css";
 @import "emblem.css";
 @import "fade-in.css";
 @import "front.css";
+@import "form.css";
 @import "navigation.css";
 @import "symbols.css";
 @import "tb-content";
@@ -36,6 +36,5 @@
 }
 
 .logo {
-  margin-top: 1rem;
   width: 100%;
 }

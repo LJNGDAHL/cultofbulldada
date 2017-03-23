@@ -12,7 +12,6 @@
   <main class="main-content fade-in fade-in__main">
       <img class="logo "src="assets/img/logo-final.png" alt="Logotype of Cult of Bulldada Kazakhstan">
     </div>
-    <?php // TODO: Remove comments around audio when going live ?>
-    <!-- <audio src="assets/sound/background.wav" autoplay></audio> -->
+    <audio src="assets/sound/background.wav" autoplay></audio>
   </main>
 <?php @include 'footer.php'; ?>

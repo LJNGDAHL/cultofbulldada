@@ -1,12 +1,19 @@
-.chat {
+.form {
+  color: var(--white);
   box-sizing: border-box;
   background-image: linear-gradient(to bottom right,var(--blue),var(--purple));
   width: 100%;
   padding: 2rem;
 }
 
+@media screen and (min-width: 800px) {
+  .form .center-content {
+    padding-left: 4.5rem;
+  }
+}
+
 @media screen and (min-width: 1000px) {
-  .chat {
+  .form__chat {
     box-shadow: 7px 7px 0 var(--shadow);
     position: fixed;
     bottom: 0;

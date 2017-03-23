@@ -123,24 +123,58 @@ h6 {
 }
 
 /*------------------------------------------------------------------------------
-  CHAT
+  FORM (USED IN CHAT AND SUBMISSION)
 ------------------------------------------------------------------------------*/
 
-.chat__headline {
+.form__headline {
   font-size: 2rem;
   margin: 0;
   padding: 0;
 }
 
-.chat__paragraph {
-  color: var(--white);
-  padding: 0;
-  margin: 0.4rem 0 1rem;
+.form__headline-long {
+  margin: 1rem 0 2rem;
+  line-height: 1.3;
 }
 
-.chat__textarea {
+.form__label {
+  display: block;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 0.9rem;
+  margin: 0.5rem 0 0.2rem;
+  text-transform: uppercase;
+}
+
+/* Used on the page 'Join us' */
+.form__input {
   box-sizing: border-box;
-  color: var(--blue);
+  display: block;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  max-width: 30rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.form__input:focus {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  outline: none;
+}
+
+.form__input:last-of-type {
+  margin-bottom: 1.5rem;
+}
+
+.form__paragraph {
+  margin: 0.4rem 0 1rem;
+  padding: 0;
+}
+
+.form__textarea {
+  box-sizing: border-box;
   border: transparent;
   font-family: 'Lato', sans-serif;
   overflow: none;
@@ -149,6 +183,6 @@ h6 {
   margin-bottom: 1rem;
 }
 
-.chat__textarea:focus {
+.form__textarea:focus {
   outline: none;
 }

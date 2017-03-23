@@ -32,6 +32,10 @@
   background-image: url('../assets/img/scientific.jpg');
 }
 
+.content-body__join {
+  background-image: url('../assets/img/meetings.jpg');
+}
+
 .content-body__mission {
   background-image: url('http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_720/images/live/p0/4d/gk/p04dgk8r.jpg');
 }
