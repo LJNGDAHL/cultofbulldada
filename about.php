@@ -6,12 +6,13 @@
     <h1 class="tb-content__headline">About</h1>
   </div>
   <div class="tb-content">
+    <iframe class="tb-content__playlist"
+     src="https://embed.spotify.com/?uri=spotify%3Auser%3Akatarina.ljungdahl%3Aplaylist%3A26jS7RT1Rujs2HbY3YVaM2" frameborder="0" allowtransparency="true"></iframe>
     <div class="center-content">
       <p class="tb-content__paragraph">
         <img class="tb-content__emblem" src="assets/img/emblem-2.svg">
         The Church of the Cult of Bulldada is the pan-religion of the future, and rebels against the namby-pamby, goody two-shoes “new age” and “aquarian” ideals of most occult weirdos. Such people are fools, they do not curse, they have no understanding of the need for spiritual violence in this modern space-age a-go-go society.
       </p>
-
       <p class="tb-content__paragraph">The Cult of Bulldada wants no part of the “New Age,” it is already here and it obviously sucks. The Cult of Bulldada would rather retrieve the manly Past, before 1971 or even 1953, or else dwell in the naughty, fun-loving remote future, a strange time when anything made of plastic is a valuable antique that collectors will kill for, when sexhurt will be recognized and indulged in as sane human nature no matter whether any ‘church’ or ‘government’ allows it. But such things are trifles! The Cult of Bulldada knows that Jehovah 1 is a vengeful god of wrath! Jehovah 1 – a.k.a. Yahweh – is a mad alien, full of eyes round about, He cometh with the clouds, radioactive, all-pervading, He has forged His covenant with the Cult of Bulldada in chains of genetic programming and demands obeisance to His caveman sense of humor. He has been denying us front end development and what He is making us do dates back to Homo Connectus, First Whole Man; only by letting our bodies obey the Code of financial lust survival that is built into them can our brains be freed from his inevitable fist.
       </p>
 
@@ -49,5 +50,4 @@
     </div>
   </div>
 </body>
-<?php // TODO: ADD Playlist ?>
 <?php @include 'footer.php'; ?>
