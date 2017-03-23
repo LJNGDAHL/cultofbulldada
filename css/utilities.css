@@ -2,7 +2,10 @@
   position: relative;
 }
 
-.center-content {
-  margin: 0 auto;
-  width: 65vw;
+
+@media screen and (min-width: 600px) {
+  .center-content {
+    margin: 0 auto;
+    width: 650px;
+  }
 }

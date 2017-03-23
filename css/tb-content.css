@@ -5,18 +5,30 @@
 
 /* Shown on content pages */
 .tb-content__emblem {
-  display: block;
-  filter: grayscale(1);
-  height: 12rem;
-  margin: 0.3rem 0 1rem;
-  opacity: 0.5;
-  width: 12rem;
+  display: none;
 }
 
+@media screen and (min-width: 600px) {
+  .tb-content__emblem {
+    display: block;
+    filter: grayscale(1);
+    height: 12rem;
+    margin: 0.3rem 0 1rem;
+    opacity: 0.5;
+    width: 12rem;
+  }
+}
 
 .tb-content__logo {
-  height: 4rem;
-  margin: 0.4rem 1rem;
-  left: 0;
-  top: 0;
+  display: none;
+}
+
+@media screen and (min-width: 800px) {
+  .tb-content__logo {
+    display: block;
+    height: 4rem;
+    margin: 0.4rem 1rem;
+    left: 0;
+    top: 0;
+  }
 }

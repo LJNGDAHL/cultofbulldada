@@ -18,9 +18,23 @@ h6 {
 
 .tb-content__headline {
   color: var(--white);
-  font-size: 10rem;
-  margin-bottom: 5rem;
+  font-size: 4rem;
+  margin-bottom: 6rem;
+  padding: 0 2rem;
   text-shadow: 2px 2px 5px var(--shadow);
+}
+
+@media screen and (min-width: 450px) {
+  .tb-content__headline {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .tb-content__headline {
+    padding: 0;
+    font-size: 8rem;
+  }
 }
 
 /*------------------------------------------------------------------------------
@@ -28,18 +42,18 @@ h6 {
 ------------------------------------------------------------------------------*/
 
 .tb-content__paragraph {
+  box-sizing: border-box;
   line-height: 1.4;
-  padding-top: 2rem;
-  width: 29rem;
+  padding: 2rem;
   margin: 0;
+  width: 100%;
 }
 
 .tb-content__paragraph:first-of-type {
   background-image: linear-gradient(to bottom right,var(--blue),var(--purple));
-  box-shadow: 7px 7px 0 var(--shadow);
   font-size: 1.3rem;
   color: var(--white);
-  padding: 1rem 2rem 4rem;
+  padding: 3rem 2rem 4rem;
   margin-bottom: -3rem;
   position: relative;
   top: -3rem;
@@ -48,6 +62,18 @@ h6 {
 .tb-content__paragraph:last-of-type {
   padding-bottom: 10rem;
 }
+
+@media screen and (min-width: 600px) {
+  .tb-content__paragraph {
+    width: 30rem;
+  }
+
+  .tb-content__paragraph:first-of-type {
+    box-shadow: 7px 7px 0 var(--shadow);
+    padding: 1rem 2rem 4rem;
+  }
+}
+
 
 /*------------------------------------------------------------------------------
   LINKS
