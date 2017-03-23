@@ -4,6 +4,8 @@
 @import "variables.css";
 
 /* SORTED ALPHABETICALLY -----------------------------------------------------*/
+@import "buttons.css";
+@import "chat.css";
 @import "content-page-bgimg.css";
 @import "emblem.css";
 @import "fade-in.css";

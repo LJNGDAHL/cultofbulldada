@@ -1,0 +1,29 @@
+.button {
+  cursor: pointer;
+  box-shadow: 2px 2px 3px rgba(0,0,0, 0.2);
+  font-size: 1.2rem;
+  color: var(--white);
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-smoothing: antialiased;
+  background-color: var(--purple-full);
+  border: none;
+  padding: 1rem 2rem;
+  min-width: 10rem;
+  text-transform: uppercase;
+  transition: background-color 750ms;
+}
+
+@media screen and (min-width: 1000px) {
+  .button {
+    width: 100%;
+  }
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover {
+  background-color: var(--blue);
+}

@@ -1,0 +1,18 @@
+.chat {
+  box-sizing: border-box;
+  background-image: linear-gradient(to bottom right,var(--blue),var(--purple));
+  width: 100%;
+  padding: 2rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .chat {
+    box-shadow: 7px 7px 0 var(--shadow);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 20rem;
+    padding: 2rem;
+    margin-right: 2rem;
+  }
+}

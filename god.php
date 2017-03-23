@@ -19,7 +19,12 @@
       From Klaatu came the prophetic utterances which are now severe and compulsory Tenets of the Church. He popularized the concept of Critical-Paranoiac Follies Evaluation by which we know that “...any inanity spouted by a Cult of bulldada at any given time automatically becomes part of orthodox Cult of bulldada Liturgy.” It is one of the single greatest Tenets, for by its own very token one can also deny it later. It is erasable. For instance, a guilty Cult of bulldada speaks an Inanity which later proves anti-nonprofit. He can then insist, “No, I didn’t say that. It was merely my ‘image’...my ‘id’ took over temporarily.” Logically, then, nothing that a Cult of bulldada says is any more or less true and consecrable than any other thing he just happens to utter - even (and especially) if they are contradictory. The Cult of bulldada is an hebephreniac Oxymoron who speaks in Slangs and oxymora. So it doesn’t matter what you say or who hears you say it. See? Klaatu denies vehemently that things should ever happen according to preset ‘plans,’ telling us to look instead to the blunders and flukes of our lives for inspiration - for will not Jehovah determine our fates at every twist and turn anyway? Can any philosophy other than Bulldada be brought to bear to preserve us from such impaling facts?
       </p>
     </div>
+    <form class="chat">
+      <h2 class="chat__headline">Chat with God</h2>
+      <p class="chat__paragraph">Hello servant! What do you want?</p>
+      <textarea class="chat__textarea" name="name" rows="8" cols="80" placeholder="Write something and the Almighty God of the Cult of Bulldada will reply. Eventually."></textarea>
+      <button class="button chat__button" type="button" name="button">Speak</button>
+    </form>
   </div>
 </body>
-<?php // TODO: ADD CHAT ?>
 <?php @include 'footer.php'; ?>

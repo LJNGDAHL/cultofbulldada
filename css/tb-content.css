@@ -16,10 +16,8 @@
 }
 
 .tb-content__img {
-  /*min-height: 100%;*/
   display: block;
   width: 100%;
-  object-fit: cover;
 }
 
 .tb-content__img-container::after {
@@ -54,19 +52,13 @@
 
 /* Shown on About page, an iframe from Spotify */
 .tb-content__playlist {
-  display: none;
-}
-
-@media screen and (min-width: 900px) {
-  .tb-content__playlist {
-    bottom: -20px;
-    display: block;
-    height: 100px;
-    position: fixed;
-    right: 0;
-    width: 100%;
-    z-index: 1;
-  }
+  bottom: -20px;
+  display: block;
+  height: 100px;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 @media screen and (min-width: 600px) {
