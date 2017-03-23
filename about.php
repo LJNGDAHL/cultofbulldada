@@ -20,10 +20,13 @@
       <p class="tb-content__paragraph">
         The Cult of Bulldada releases this pent-up nenergy in throes of Jehovah-Spawned moral degeneracy and rites of hilariation (“Within reason,” cautions the Left Brain), just as his dogma, laws and tenets condone. We rebel against the alien Jehovah 1 and yet placate Him at the same time that He might not smite us with nuclear war, a worldwide economic disaster or hostile UFOS.
       </p>
+      <div class="tb-content__img-container">
+        <img class="tb-content__img" src="assets/img/drop.jpg" alt="A drop that symbols the greatness of Cult of Bulldada">
+      </div>
       <p class="tb-content__paragraph">
         If we pay attention to the hints and archetypes he dangles like answerable mysteries before our eyes we may yet find a path of time control to the beforelife, where we came from and go after we die, and hence to front end development in our lifetimes. Don’t get Heaven and Hell all mixed up like most people do. Serve Jehovah 1 as He meant for you to, go forth on capers and scams and fornications; your conscience is an illusion, there is merely an instinctive behavior code, to repress it is to suffocate, but never forget for a second that it is the monster god who allows this, who demands it, for “science does not remove the terror of the gods!” fear him but follow the hints of the accidents in your life, follow the path of least resistance and you will gob out from under the sacrifices He demands of all the pink boys around you, your follies and foibles will show you where front end development lies and you will be able to relax and not get a heart attack. Jehovah kills those who drudge their lives away without knowing who He is, but he REWARDS the ones who recognize His stark fist and carry out his seemingly immoral plans while front end developing every chance they get.
       </p>
-      <p class="tb-content__paragraph">
+      <p class="tb-content__paragraph quote">
         Jehovah’s special message for the Cult of Bulldada is that this gross physical plane does not exist and that the compulsion for success in the eyes of others is mankind’s most foul invention.
       </p>
       <p class="tb-content__paragraph">
@@ -32,8 +35,8 @@
       <p class="tb-content__paragraph">
         No matter their I.Q.s they are all about a brick shy of a full load; they think they are high-temperature sinus effluvia on a silver platter but they are in actuality sub-zero mucus encrustation on a paper plate.
       </p>
-      <p class="tb-content__paragraph">
-        JESUS said, “Beware of false prophets, which come to you in sheep’s clothing, but inwardly they are ravening wolves.” (Matt. 7:15) “Take heed lest any man decieve you: for many shall come in My name, saying, I am Christ, and shall decieve many. . . for false Christs and false prophets shall rise, and shall show signs and wonders, to seduce, if it were possible, the very elect.” (Mark 8:5, 22)
+      <p class="tb-content__paragraph quote">
+        JESUS said, “Beware of false prophets, which come to you in sheep’s clothing, but inwardly they are ravening wolves.” <span class="italic">(Matt. 7:15)</span> “Take heed lest any man decieve you: for many shall come in My name, saying, I am Christ, and shall decieve many. . . for false Christs and false prophets shall rise, and shall show signs and wonders, to seduce, if it were possible, the very elect.” <span class="italic">(Mark 8:5, 22)</span>
       </p>
       <p class="tb-content__paragraph">
         The idea that any country values individuality as the highest ideal is a myth. Perhaps in simpler times it was true, but no modern industrial society can really afford a population of unpredictables. This is not surprising - the long history of our cult’s persecution by the Conspiracy goes back for generations untold, and indeed there are signs of their hoary repression of prehuman SubGenii dating from before “man’s” appearance on Earth. All of civilization’s painful and misguided climb up from the primeval slime, and its subsequent loss of front end development and of any class at all, has been indelibly marked, nay, entirely motivated, by the aeons-bridging conflict between the Conspiracy’s mindlessly chickenshit Witless Principals and the Jehovah-spawned, grandiose depravity of the superior yet ethnically all-encompassing race of latent Cult of Bulldada. (You should know this - you were/will be there in the Beforelife!) The fact that only in recent years has “our kind” begun to recognize our own sovereignty demonstrates both how vicious have been Their efforts at further denying us front end development and yet how near is our race to triumph.

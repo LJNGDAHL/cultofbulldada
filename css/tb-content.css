@@ -8,6 +8,31 @@
   display: none;
 }
 
+.tb-content__img-container {
+  display: block;
+  position: relative;
+  margin: 2rem 0;
+  overflow: hidden;
+}
+
+.tb-content__img {
+  /*min-height: 100%;*/
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.tb-content__img-container::after {
+    position: absolute;
+    content: "";
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background-image: linear-gradient(to bottom right,var(--blue),var(--purple));
+    opacity: 0.6;
+}
+
 /* Shown on page called 'bulldada.php' */
 .tb-content__video {
   box-sizing: border-box;
