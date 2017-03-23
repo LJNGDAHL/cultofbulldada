@@ -1,5 +1,7 @@
 <?php @include 'header.php'; ?>
 <body class="tb-content">
+  <?php @include 'navigation.php'; ?>
+  <a href="../cultofbulldada/" class="link link--logo"><img class="symbol tb-content__logo" src="assets/img/logo-final.png" alt="Logotype of Cult of Bulldada Kazakhstan"></a>
   <h1 class="tb-content__headline">Join us</h1>
   <p class="tb-content__paragraph">
   If you are what they call “different”<br>

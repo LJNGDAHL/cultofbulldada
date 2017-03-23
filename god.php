@@ -1,7 +1,8 @@
 <?php @include 'header.php'; ?>
 <body class="content-body content-body__god">
+  <?php @include 'navigation.php'; ?>
+  <a href="../cultofbulldada/" class="link link--logo"><img class="symbol tb-content__logo" src="assets/img/logo-final.png" alt="Logotype of Cult of Bulldada Kazakhstan"></a>
   <div class="center-content">
-    <img class="symbol tb-content__symbol" src="assets/img/cob-symbol.svg" alt="Cult of Bulldada symbol">
     <h1 class="tb-content__headline">Our God</h1>
   </div>
   <div class="tb-content">

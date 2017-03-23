@@ -1,6 +1,5 @@
 <?php @include 'header.php'; ?>
 <body class="front">
-    <a class="navigation__link link" href="#navigation" id="menu">Menu</a>
     <?php @include 'navigation.php'; ?>
     <div class="fade-in fade-in__symbols">
       <img class="symbol symbol__front symbol--top-left" src="assets/img/cob-symbol.svg" alt="Cult of Bulldada symbol">
