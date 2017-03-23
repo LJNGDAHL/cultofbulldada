@@ -27,3 +27,11 @@
 .content-body__about {
   background-image: url('../assets/img/space-telescope.jpg');
 }
+
+.content-body__bulldada {
+  background-image: url('../assets/img/scientific.jpg');
+}
+
+.content-body__mission {
+  background-image: url('http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_720/images/live/p0/4d/gk/p04dgk8r.jpg');
+}

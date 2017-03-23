@@ -2,6 +2,17 @@
   position: relative;
 }
 
+.purple {
+  color: var(--purple);
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
 
 @media screen and (min-width: 600px) {
   .center-content {

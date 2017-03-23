@@ -10,6 +10,7 @@ h3,
 h4,
 h5,
 h6 {
+  color: var(--white);
   font-family: 'Oswald', sans-serif;
   font-size: 5rem;
   letter-spacing: 0.05em;
@@ -17,8 +18,8 @@ h6 {
 }
 
 .tb-content__headline {
-  color: var(--white);
   font-size: 4rem;
+  line-height: 1.1;
   margin-bottom: 6rem;
   padding: 0 2rem;
   text-shadow: 2px 2px 5px var(--shadow);
@@ -44,7 +45,7 @@ h6 {
 .tb-content__paragraph {
   box-sizing: border-box;
   line-height: 1.4;
-  padding: 2rem;
+  padding: 0.5rem 2rem;
   margin: 0;
   width: 100%;
 }
@@ -54,12 +55,17 @@ h6 {
   font-size: 1.3rem;
   color: var(--white);
   padding: 3rem 2rem 4rem;
-  margin-bottom: -3rem;
+  margin-bottom: -1rem;
   position: relative;
   top: -3rem;
 }
 
 .tb-content__paragraph:last-of-type {
+  padding-bottom: 5rem;
+}
+
+/* In need of extra padding due to Spotify playlist */
+.content-body__about .tb-content__paragraph:last-of-type {
   padding-bottom: 10rem;
 }
 
@@ -73,7 +79,6 @@ h6 {
     padding: 1rem 2rem 4rem;
   }
 }
-
 
 /*------------------------------------------------------------------------------
   LINKS
@@ -101,4 +106,18 @@ h6 {
 .navigation__link{
   font-size: 1.8rem;
   text-transform: uppercase;
+}
+
+/*------------------------------------------------------------------------------
+  QUOTES
+------------------------------------------------------------------------------*/
+
+.quote {
+  border-left: 7px solid var(--purple);
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  margin: 1rem 2rem;
+  padding: 1.5rem 1rem;
+  width: auto;
 }

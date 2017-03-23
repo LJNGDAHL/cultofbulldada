@@ -3,8 +3,10 @@
   --purple: #a1008a;
   --purple-full: rgba(161, 0, 138, 1);
   --purple-transparent: rgba(161, 0, 138, 0);
+  --purple-semitransparent: rgba(161, 0, 138, 0.3); /* TODO: REMOVE IF NOT USED */
   --white: #f8f8f8;
   --blue: #00afca;
+  --blue-semitransparent: rgba(0, 172, 202, 0.3);
   --golden: #fec50c;
   --shadow: rgba(0,0,0,0.1);
 }

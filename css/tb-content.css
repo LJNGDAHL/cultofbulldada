@@ -8,6 +8,25 @@
   display: none;
 }
 
+/* Shown on page called 'bulldada.php' */
+.tb-content__video {
+  box-sizing: border-box;
+  height: 15rem;
+  margin: 2rem 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .tb-content__video {
+    box-sizing: border-box;
+    border-left: 7px solid var(--purple);
+    height: 19rem;
+    margin: 1rem 2rem 0;
+    padding: 2rem;
+    width: 26rem;
+  }
+}
+
 /* Shown on About page, an iframe from Spotify */
 .tb-content__playlist {
   display: none;
