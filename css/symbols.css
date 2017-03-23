@@ -2,24 +2,45 @@
   SYMBOLS (PLACED IN SCREEN CORNER)
 ------------------------------------------------------------------------------*/
 
+/* All symbols will be absolute positioned */
 .symbol {
+  position: absolute;
+}
+
+/* Symbols on front are only shown on screens larger than 900px */
+.symbol__front {
   display: none;
+}
+
+/* Symbols in navigation */
+.symbol__nav {
+  display: block;
+  transform: rotate(90deg);
+  width: 2rem;
+}
+
+.symbol__nav--top {
+  top: -100px; /* Weird due to transform rotate */
+  left: 84px; /* Weird due to transform rotate */
+}
+
+.symbol__nav--bottom {
+  bottom: -100px; /* Weird due to transform rotate */
+  left: 84px; /* Weird due to transform rotate */
+}
+
+
+/* This container is used in navigation */
+.symbol-container {
+  position: relative;
 }
 
 
 @media screen and (min-width: 900px) {
-  .symbol {
-    display: inline-block;
-    position: absolute;
+  .symbol__front {
+    display: block;
     height: 8rem;
     margin: 1rem;
-  }
-
-  .tb-content__symbol {
-    height: 20rem;
-    margin: 1rem 2rem;
-    left: 0;
-    top: 0;
   }
 
   .symbol--top-left {

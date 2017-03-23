@@ -4,12 +4,12 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
-  padding-top: 30vh;
+  padding-top: 10vh;
 }
 
 /* A filter that combines Bulldada purple and Kazakhstan golden */
 .content-body::before {
-  background-image: linear-gradient(to bottom right,var(--golden),var(--purple));
+  background-image: linear-gradient(to bottom right,var(--blue),var(--purple));
   bottom: 0;
   content: '';
   left: 0;

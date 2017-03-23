@@ -2,3 +2,21 @@
   background-color: var(--white);
   box-sizing: border-box;
 }
+
+/* Shown on content pages */
+.tb-content__emblem {
+  display: block;
+  filter: grayscale(1);
+  height: 12rem;
+  margin: 0.3rem 0 1rem;
+  opacity: 0.5;
+  width: 12rem;
+}
+
+
+.tb-content__symbol {
+  height: 20rem;
+  margin: 1rem 2rem;
+  left: 0;
+  top: 0;
+}
