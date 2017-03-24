@@ -52,10 +52,10 @@ h6 {
 
 .tb-content__paragraph:first-of-type {
   background-image: linear-gradient(to bottom right,var(--blue),var(--purple));
-  font-size: 1.3rem;
   color: var(--white);
-  padding: 3rem 2rem 4rem;
+  font-size: 1.3rem;
   margin-bottom: -1rem;
+  padding: 3rem 2rem 4rem;
   position: relative;
   top: -3rem;
 }
@@ -94,8 +94,8 @@ h6 {
 }
 
 .link:hover {
-  text-shadow: 0 0 23px var(--purple-full);
   color: var(--purple);
+  text-shadow: 0 0 23px var(--purple-full);
 }
 
 .link--nav {
