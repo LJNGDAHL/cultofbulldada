@@ -16,6 +16,12 @@
   }
 }
 
+.form__input,
+.form__input:focus,
+.form__label {
+  font-family: "Oswald", sans-serif;
+}
+
 @media screen and (min-width: 1000px) {
   .form__chat {
     box-shadow: 7px 7px 0 var(--shadow);
@@ -41,7 +47,6 @@
 
 .form__label {
   display: block;
-  font-family: "Oswald", sans-serif;
   font-weight: 300;
   font-size: 0.9rem;
   margin: 0.5rem 0 0.2rem;
@@ -55,7 +60,6 @@
   box-sizing: border-box;
   color: var(--dark);
   display: block;
-  font-family: "Oswald", sans-serif;
   font-weight: 400;
   margin-bottom: 1rem;
   max-width: 30rem;
@@ -69,7 +73,6 @@
 }
 
 .form__input:focus {
-  font-family: "Oswald", sans-serif;
   font-weight: 400;
   outline: none;
 }

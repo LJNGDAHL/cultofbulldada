@@ -23,5 +23,4 @@
       </p>
     </div>
   </div>
-  <audio src="assets/sound/background.wav" autoplay></audio>
   <?php @include 'footer.php'; ?>

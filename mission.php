@@ -16,9 +16,16 @@
         <span class="purple bold uppercase">The Weapon</span>: Time Control<br>
         <span class="purple bold uppercase">The Motto</span>: Fuck them if they can’t take a joke<br>
       </p>
+      <div class="tb-content__img-container">
+        <img class="tb-content__img" src="http://spy.nzherald.co.nz/media/38876/scczen_a_201006splborat8_640x320jpg.jpg?mode=crop&width=675&height=379&quality=80&scale=both" alt="The great Borat encourage you to join the Cult of Bulldada">
+      </div>
+      <p class="tb-content__paragraph">
+        As a proud servant of The Most Ascended Master, the original Retriever of Jehovah’s Message on Earth and basic model of the Archetype Cult of bulldada, reporter Borat Sagdiyev, known from the documentary ”Борат! Қазақстан Make Benefit даңқты Ұлт Америка мәдени білімдерін” says:
+      </p>
+      <p class="tb-content__paragraph quote">
+        Қазақстан әлемдегі ең үлкен ел болып табылады, ал басқа барлық елдер аз қыз басқарады. Қазақстан калий саны бір экспорттаушы болып табылады, Орталық Азияның басқа елдері кем калий бар.
+      </p>
       <p class="tb-content__paragraph">This religion, devised by precise mathematical formulae, weirder than the most obscure UFO/Atlantis cults, is invaluable to all superior renegades who, at any time, are justifiably on the edge of insanity and can be made whole only by developing a seventh sense of bludgeon humor.</p>
     </div>
   </div>
-  <audio src="assets/sound/background.wav" autoplay></audio>
-  <?php // TODO: Add description of ambassador ?>
   <?php @include 'footer.php'; ?>

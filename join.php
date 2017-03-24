@@ -19,7 +19,6 @@
       <p class="tb-content__paragraph uppercase">You may now stop reading forever.</p>
     </div>
   </div>
-  <!-- <audio src="assets/sound/background.wav" autoplay></audio> -->
   <form class="form">
     <div class="center-content">
       <h2 class="form__headline form__headline-long">Are you ready to become a servant?</h2>
@@ -32,4 +31,5 @@
       <button class="button form__button" type="button" name="button">Join</button>
     </div>
   </form>
+  <audio src="assets/sound/background.wav" autoplay></audio>
   <?php @include 'footer.php'; ?>

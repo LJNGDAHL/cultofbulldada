@@ -26,5 +26,4 @@
       <button class="button form__button form__button--chat" type="button" name="button">Speak</button>
     </form>
   </div>
-  <audio src="assets/sound/background.wav" autoplay></audio>
   <?php @include 'footer.php'; ?>
