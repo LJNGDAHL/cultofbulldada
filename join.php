@@ -8,7 +8,7 @@
   <div class="tb-content">
     <div class="center-content">
       <p class="tb-content__paragraph">
-        <img class="tb-content__emblem" src="assets/img/emblem-2.svg">
+        <img class="tb-content__emblem" src="assets/img/emblem-2.svg" alt="Emblem of Kazakhstan">
         If you are what they call “different”<br>
         If you think we’re entering a new Dark Ages<br>
         If you see the universe as one vast morbid sense of humor<br><br>
@@ -24,14 +24,12 @@
     <div class="center-content">
       <h2 class="form__headline form__headline-long">Are you ready to become a servant?</h2>
       <label class="form__label" for="name">Name</label>
-      <input class="form__input" type="text" name="name" value="" placeholder="Name">
+      <input class="form__input" type="text" name="name" id="name" placeholder="Name">
       <label class="form__label" for="credit-card">Credit Card Number</label>
-      <input class="form__input" type="number" name="credit-card" value="" placeholder="Credit Card Number">
-      <label class="form__label" for="shoe size">Credit Card Number</label>
-      <input class="form__input" type="number" name="shoe-size" value="" placeholder="Shoe Size">
+      <input class="form__input" type="number" name="credit-card" placeholder="Credit Card Number" id="credit-card">
+      <label class="form__label" for="shoe-size">Shoe size</label>
+      <input class="form__input" type="number" name="shoe-size" placeholder="Shoe Size" id="shoe-size">
       <button class="button form__button" type="button" name="button">Join</button>
     </div>
   </form>
-</body>
-<?php // TODO: ADD Register form ?>
-<?php @include 'footer.php'; ?>
+  <?php @include 'footer.php'; ?>

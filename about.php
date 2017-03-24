@@ -8,7 +8,7 @@
   <div class="tb-content">
     <div class="center-content">
       <p class="tb-content__paragraph">
-        <img class="tb-content__emblem" src="assets/img/emblem-2.svg">
+        <img class="tb-content__emblem" src="assets/img/emblem-2.svg" alt="Emblem of Kazakhstan">
         The Church of the Cult of Bulldada is the pan-religion of the future, and rebels against the namby-pamby, goody two-shoes “new age” and “aquarian” ideals of most occult weirdos. Such people are fools, they do not curse, they have no understanding of the need for spiritual violence in this modern space-age a-go-go society.
       </p>
       <p class="tb-content__paragraph">
@@ -70,5 +70,4 @@
      src="https://embed.spotify.com/?uri=spotify%3Auser%3Akatarina.ljungdahl%3Aplaylist%3A26jS7RT1Rujs2HbY3YVaM2" frameborder="0" allowtransparency="true"></iframe>
   </div>
   <audio src="assets/sound/background.wav" autoplay></audio>
-</body>
-<?php @include 'footer.php'; ?>
+  <?php @include 'footer.php'; ?>

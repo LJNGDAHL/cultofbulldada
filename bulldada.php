@@ -8,7 +8,7 @@
   <div class="tb-content">
     <div class="center-content">
       <p class="tb-content__paragraph">
-        <img class="tb-content__emblem" src="assets/img/emblem-2.svg">
+        <img class="tb-content__emblem" src="assets/img/emblem-2.svg" alt="Emblem of Kazakhstan">
         Bulldada is the nearly unexplainable label for that mysterious quality that impregnates ordinary things with meaning for the Cult of bulldada no matter how devoid of value they may appear to The Others. Seeing in the vivisecting light of bulldada, we recognize that the most awe-inspiring artifacts of our civilization are not the revered artsy-fartsy pieces of “culture” displayed in our swankest art museums, universities and concert halls – as the Conspiracy would have us believe! – but are instead to be found in such icons as low-budget exploitation movies, lurid comic books, all-nite TV, sleazy Paperbacks of the Gods, certain bizarre billboards and pulp magazine ads, and literally any other fossil of raw humanity in all its shit-kickingly flawwed glory.
       </p>
       <p class="tb-content__paragraph">
@@ -23,6 +23,5 @@
       </p>
     </div>
   </div>
-</body>
-<audio src="assets/sound/background.wav" autoplay></audio>
-<?php @include 'footer.php'; ?>
+  <audio src="assets/sound/background.wav" autoplay></audio>
+  <?php @include 'footer.php'; ?>

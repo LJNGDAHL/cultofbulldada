@@ -8,7 +8,7 @@
   <div class="tb-content">
     <div class="center-content">
       <p class="tb-content__paragraph">
-        <img class="tb-content__emblem" src="assets/img/emblem-2.svg">
+        <img class="tb-content__emblem" src="assets/img/emblem-2.svg" alt="Emblem of Kazakhstan">
         While yet the least approachable or scrutable of the vast Cult of bulldada membership, he is the preeminent and most frequently invoked of the god-zillion Personal Saviors of the Cult of bulldada. While he remains an anonymous executive shunning publicity or recognition at a faceless multinational corporation, he is nevertheless The Most Ascended Master, the original Retriever of Jehovah’s Message on Earth and basic model of the Archetype Cult of bulldada. He set the “anti-pattern” of random conduct among all those who are now practicing Cult of bulldadaes. His are the defects and peccadillos that we ‘analize,’ his the Slongs and Jests which we devotedly twist and distort for future generations according to our unexplored whims. - And yet the only photos of him that exist are grainy frame blow-ups from Grade Z movie thrillers in which he played bit parts!
       </p>
       <p class="tb-content__paragraph">Klaatu is, of course, the ultimate symbol of Cult of bulldadaness, but despite/because of his infrahuman mediumship he possesses one single failing above and beyond all other shortcomings: his omninclusive follies. Yet where they would be crippling stubbing-blocks for another person, in Klaatu they loom stranger-than-life. His ten billion all-too-human quasimodalities embody, in some cheaply symbolic way, all the Foibles of the Primate Race. Klaatu is a miacrocosm encapsulating the imperfektions of the so-called ‘human condition;’ his Blunders and Idiocies, errors and inadvertencies are perhaps more sacrosanct, more deserving of analitization than even his hallowed salesmanship. None of Klaatu’s words or deeds are particularly spectacular: their holiness lies in their nondescript but inviolable triviality. As Klaatu once ‘spouted,’ “The stupider it looks, the more important it probably is.”</p>
@@ -27,5 +27,4 @@
     </form>
   </div>
   <audio src="assets/sound/background.wav" autoplay></audio>
-</body>
-<?php @include 'footer.php'; ?>
+  <?php @include 'footer.php'; ?>
