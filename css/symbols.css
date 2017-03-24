@@ -2,8 +2,8 @@
   SYMBOLS (PLACED IN SCREEN CORNER)
 ------------------------------------------------------------------------------*/
 
-/* All symbols will be absolute positioned */
-.symbol {
+/* All symbols except this in navigation will be absolute positioned */
+.symbol:not(.symbol__nav) {
   position: absolute;
 }
 
@@ -12,29 +12,25 @@
   display: none;
 }
 
-/* Symbols in navigation */
-.symbol__nav {
-  display: block;
-  transform: rotate(90deg);
-  width: 2rem;
-}
-
-.symbol__nav--top {
-  top: -100px; /* Weird due to transform rotate */
-  left: 84px; /* Weird due to transform rotate */
-}
-
-.symbol__nav--bottom {
-  bottom: -100px; /* Weird due to transform rotate */
-  left: 84px; /* Weird due to transform rotate */
-}
-
-
 /* This container is used in navigation */
 .symbol-container {
-  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
+/* Symbols in navigation */
+.symbol__nav {
+  display: none;
+}
+
+@media screen and (min-height: 600px) {
+  .symbol__nav {
+    display: block;
+    height: auto;
+    width: 8rem;
+    padding: 2.5rem;
+  }
+}
 
 @media screen and (min-width: 900px) {
   .symbol__front {
