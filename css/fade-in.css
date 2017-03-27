@@ -3,9 +3,9 @@
 ------------------------------------------------------------------------------*/
 
 .has-js .fade-in {
-  opacity: 0;
   animation: fade-in 750ms ease-in-out;
   animation-fill-mode: forwards;
+  opacity: 0;
 }
 
 @keyframes fade-in {

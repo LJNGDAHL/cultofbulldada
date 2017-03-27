@@ -8,8 +8,12 @@
   <div class="tb-content">
     <div class="center-content">
       <p class="tb-content__paragraph">
-        <img class="tb-content__emblem" src="assets/img/emblem-2.svg" alt="Emblem of Kazakhstan">This is a certified religion of scorn and vengeance directed at all of them, the enemies of us Outsiders. It is “self-help” thorugh scoffing and blaspheming, frenzied fornication and the Tumping of Graven Images. The Church provides answers and miracles in the service of sureavolution.</p>
-      <p class="tb-content__paragraph">The Church of the Cult of Bulldada is the ultimate secret order, the superior brain cult for those who “know better” but who demand in the lust for grins a spectacular, special-effects-laden belief system — a ‘stuporstition.’</p>
+        <img class="tb-content__emblem" src="assets/img/emblem-2.svg" alt="Emblem of Kazakhstan">
+        This is a certified religion of scorn and vengeance directed at all of them, the enemies of us Outsiders. It is “self-help” thorugh scoffing and blaspheming, frenzied fornication and the Tumping of Graven Images. The Church provides answers and miracles in the service of sureavolution.
+      </p>
+      <p class="tb-content__paragraph">
+        The Church of the Cult of Bulldada is the ultimate secret order, the superior brain cult for those who “know better” but who demand in the lust for grins a spectacular, special-effects-laden belief system — a ‘stuporstition.’
+      </p>
       <p class="tb-content__paragraph quote">
         <span class="purple bold uppercase">The Goal</span>: Front End Development<br>
         <span class="purple bold uppercase">The Method</span>: The casting out of false prophets<br>

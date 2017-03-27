@@ -21,14 +21,14 @@
 }
 
 .tb-content__img-container::after {
-    position: absolute;
-    content: "";
-    height:100%;
-    width:100%;
-    top:0;
-    left:0;
-    background-image: linear-gradient(to bottom right,var(--blue),var(--purple));
-    opacity: 0.6;
+  background-image: linear-gradient(to bottom right,var(--blue),var(--purple));
+  content: "";
+  height:100%;
+  width:100%;
+  top:0;
+  left:0;
+  opacity: 0.6;
+  position: absolute;
 }
 
 /* Shown on page called 'bulldada.php' */

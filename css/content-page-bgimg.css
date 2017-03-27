@@ -1,10 +1,10 @@
 .content-body {
   background-size: cover;
-  width: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
   padding-top: 10vh;
+  width: 100%;
 }
 
 /* A filter that combines Bulldada purple and Kazakhstan blue */

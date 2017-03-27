@@ -15,12 +15,12 @@
 }
 
 .emblem__item {
-  display: block;
-  max-height: 100%;
-  filter: grayscale(1);
-  opacity: 0.8;
   animation: rotate 10000ms linear;
   animation-iteration-count: infinite;
+  display: block;
+  filter: grayscale(1);
+  max-height: 100%;
+  opacity: 0.8;
 }
 
 /*------------------------------------------------------------------------------

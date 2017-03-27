@@ -31,5 +31,4 @@
       <button class="button form__button" type="button" name="button">Join</button>
     </div>
   </form>
-  <audio src="assets/sound/background.wav" autoplay></audio>
   <?php @include 'footer.php'; ?>

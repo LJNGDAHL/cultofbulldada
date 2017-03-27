@@ -1,23 +1,23 @@
 .front {
-  height: 100vh;
-  width: 100vw;
   background-image: url('../assets/img/kazakhstan-mountain.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  height: 100vh;
+  width: 100vw;
 }
 
 /* A filter that combines Bulldada purple and Kazakhstan golden */
 .front::before {
-  height: 100vh;
-  width: 100vw;
   background-image: linear-gradient(to bottom right,var(--blue),var(--purple));
   bottom: 0;
   content: '';
+  height: 100vh;
   left: 0;
   opacity: 0.6;
   position: absolute;
   pointer-events: none;
   right: 0;
   top: 0;
+  width: 100vw;
 }
