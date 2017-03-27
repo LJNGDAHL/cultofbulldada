@@ -12,7 +12,7 @@
   background-image: linear-gradient(to bottom right,var(--blue),var(--purple));
   bottom: 0;
   content: '';
-  height: 100vh;
+  height: 101vh;
   left: 0;
   opacity: 0.6;
   position: absolute;

@@ -1,7 +1,6 @@
 <?php @include 'header.php'; ?>
 <body class="content-body content-body__mission">
   <?php @include 'navigation.php'; ?>
-  <a href="../cultofbulldada/" class="link link--logo"><img class="symbol tb-content__logo" src="assets/img/logo-final.png" alt="Logotype of Cult of Bulldada Kazakhstan"></a>
   <div class="center-content">
     <h1 class="tb-content__headline">Our Mission</h1>
   </div>
@@ -32,5 +31,5 @@
       <p class="tb-content__paragraph">This religion, devised by precise mathematical formulae, weirder than the most obscure UFO/Atlantis cults, is invaluable to all superior renegades who, at any time, are justifiably on the edge of insanity and can be made whole only by developing a seventh sense of bludgeon humor.</p>
     </div>
   </div>
-  <audio src="assets/sound/background.wav" autoplay></audio>
+  <audio class="js-audioplayer" src="assets/sound/background.wav" autoplay id="js-audioplayer"></audio>
   <?php @include 'footer.php'; ?>

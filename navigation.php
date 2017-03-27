@@ -1,4 +1,4 @@
-<a class="navigation__link link" href="#navigation" id="menu">Menu</a>
+<a class="navigation__link link fade-in fade-in__symbols" href="#navigation" id="menu">Menu</a>
 <nav class="main-navigation" id="navigation">
   <a class="link navigation__link" href="#menu">Exit</a>
   <div class="symbol-container">

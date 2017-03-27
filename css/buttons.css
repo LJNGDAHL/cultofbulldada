@@ -20,10 +20,39 @@
   }
 }
 
-.button:focus {
+.button:focus,
+.button__audio:focus {
   outline: none;
 }
 
 .button:hover {
   background-color: var(--blue);
+}
+
+/* Turns sound on/off, unique styling */
+.button__audio {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 1rem;
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+
+.front .button__audio {
+  bottom: -0.3rem;
+  left: 0;
+}
+
+.content-body__about .button__audio,
+.content-body__join .button__audio,
+.content-body__mission .button__audio,
+.content-body__god .button__audio,
+.content-body__bulldada .button__audio {
+  top: 0rem;
+  left: 0;
 }

@@ -81,7 +81,8 @@ h3 {
   LINKS
 ------------------------------------------------------------------------------*/
 
-.link {
+.link,
+.button__audio {
   color: var(--white);
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
@@ -90,9 +91,24 @@ h3 {
   transition: color 400ms ease-in, text-shadow 250ms ease-in;
 }
 
-.link:hover {
+.link:hover,
+.play-btn:hover,
+.pause-btn:hover {
   color: var(--purple);
   text-shadow: 0 0 23px var(--purple-full);
+}
+
+.pause-btn,
+.play-btn {
+  color: var(--white);
+  transition: color 400ms ease-in;
+  height: 2.2rem;
+  width: 2.2rem;
+}
+
+.play-btn:hover,
+.pause-btn:hover {
+  color: var(--purple);
 }
 
 .link--nav {
@@ -110,7 +126,8 @@ h3 {
   outline: none;
 }
 
-.navigation__link {
+.navigation__link,
+.sound__link {
   font-size: 1.8rem;
   font-weight: 300;
   text-transform: uppercase;

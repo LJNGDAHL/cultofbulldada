@@ -1,7 +1,6 @@
 <?php @include 'header.php'; ?>
 <body class="content-body content-body__about">
   <?php @include 'navigation.php'; ?>
-  <a href="../cultofbulldada/" class="link link--logo"><img class="symbol tb-content__logo" src="assets/img/logo-final.png" alt="Logotype of Cult of Bulldada Kazakhstan"></a>
   <div class="center-content">
     <h1 class="tb-content__headline">About</h1>
   </div>
@@ -69,5 +68,5 @@
     <iframe class="tb-content__playlist"
      src="https://embed.spotify.com/?uri=spotify%3Auser%3Akatarina.ljungdahl%3Aplaylist%3A26jS7RT1Rujs2HbY3YVaM2" frameborder="0" allowtransparency="true"></iframe>
   </div>
-  <audio src="assets/sound/background.wav" autoplay></audio>
+  <audio class="js-audioplayer" src="assets/sound/background.wav" autoplay id="js-audioplayer"></audio>
   <?php @include 'footer.php'; ?>

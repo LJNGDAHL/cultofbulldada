@@ -1,7 +1,6 @@
 <?php @include 'header.php'; ?>
 <body class="content-body content-body__god">
   <?php @include 'navigation.php'; ?>
-  <a href="../cultofbulldada/" class="link link--logo"><img class="symbol tb-content__logo" src="assets/img/logo-final.png" alt="Logotype of Cult of Bulldada Kazakhstan"></a>
   <div class="center-content">
     <h1 class="tb-content__headline">Our God</h1>
   </div>
@@ -31,5 +30,5 @@
       <button class="button form__button form__button--chat" type="button" name="button">Speak</button>
     </form>
   </div>
-  <audio src="assets/sound/background.wav" autoplay></audio>
+  <audio class="js-audioplayer" src="assets/sound/background.wav" autoplay id="js-audioplayer"></audio>
   <?php @include 'footer.php'; ?>
