@@ -41,3 +41,13 @@
   margin: 0;
   padding: 0;
 }
+
+/* Display current page in purple color  */
+.content-body__about .about,
+.content-body__bulldada .bulldada,
+.content-body__join .join,
+.content-body__mission .mission,
+.content-body__god .god,
+.front .home {
+  color: var(--purple-semitransparent);
+}
