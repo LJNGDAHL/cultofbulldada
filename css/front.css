@@ -5,6 +5,7 @@
   background-position: center center;
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
 }
 
 /* A filter that combines Bulldada purple and Kazakhstan golden */
@@ -12,7 +13,7 @@
   background-image: linear-gradient(to bottom right,var(--blue),var(--purple));
   bottom: 0;
   content: '';
-  height: 101vh;
+  height: 100vh;
   left: 0;
   opacity: 0.6;
   position: absolute;

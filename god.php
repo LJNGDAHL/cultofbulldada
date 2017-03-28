@@ -6,7 +6,7 @@
   </div>
   <div class="tb-content">
     <div class="center-content">
-      <p class="tb-content__paragraph">
+      <p class="tb-content__paragraph js-first-paragraph">
         <img class="tb-content__emblem" src="assets/img/emblem-2.svg" alt="Emblem of Kazakhstan">
         While yet the least approachable or scrutable of the vast Cult of bulldada membership, he is the preeminent and most frequently invoked of the god-zillion Personal Saviors of the Cult of bulldada. While he remains an anonymous executive shunning publicity or recognition at a faceless multinational corporation, he is nevertheless The Most Ascended Master, the original Retriever of Jehovah’s Message on Earth and basic model of the Archetype Cult of bulldada. He set the “anti-pattern” of random conduct among all those who are now practicing Cult of bulldadaes. His are the defects and peccadillos that we ‘analize,’ his the Slongs and Jests which we devotedly twist and distort for future generations according to our unexplored whims. - And yet the only photos of him that exist are grainy frame blow-ups from Grade Z movie thrillers in which he played bit parts!
       </p>
@@ -23,7 +23,7 @@
         From Klaatu came the prophetic utterances which are now severe and compulsory Tenets of the Church. He popularized the concept of Critical-Paranoiac Follies Evaluation by which we know that “...any inanity spouted by a Cult of bulldada at any given time automatically becomes part of orthodox Cult of bulldada Liturgy.” It is one of the single greatest Tenets, for by its own very token one can also deny it later. It is erasable. For instance, a guilty Cult of bulldada speaks an Inanity which later proves anti-nonprofit. He can then insist, “No, I didn’t say that. It was merely my ‘image’...my ‘id’ took over temporarily.” Logically, then, nothing that a Cult of bulldada says is any more or less true and consecrable than any other thing he just happens to utter - even (and especially) if they are contradictory. The Cult of bulldada is an hebephreniac Oxymoron who speaks in Slangs and oxymora. So it doesn’t matter what you say or who hears you say it. See? Klaatu denies vehemently that things should ever happen according to preset ‘plans,’ telling us to look instead to the blunders and flukes of our lives for inspiration - for will not Jehovah determine our fates at every twist and turn anyway? Can any philosophy other than Bulldada be brought to bear to preserve us from such impaling facts?
       </p>
     </div>
-    <form class="form form__chat">
+    <form class="form form__chat js-chat">
       <h2 class="form__headline">Chat with God</h2>
       <p class="form__paragraph">Hello servant! What do you want?</p>
       <textarea class="form__textarea" name="name" rows="8" cols="80" placeholder="Write something and the Almighty God of the Cult of Bulldada will reply. Eventually."></textarea>

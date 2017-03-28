@@ -1,34 +1,53 @@
 (function cultofbulldada() {
   'use strict';
 
-  // TODO: If you have time, sort out your buttons!
   const audioPlayer = document.querySelector('.js-audioplayer');
   const audioButton = document.querySelector('.js-audiobutton');
-  let isActive = true;
-  audioButton.innerHTML = '<svg class="pause-btn"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pause-button"></use></svg>'; // Start with Mute sound and autoplay
+  const firstParagraph = document.querySelector('.js-first-paragraph');
+  const chat = document.querySelector('.js-chat');
+
+
+  // Start displaying pause button since player is on autoplay by default
+  audioButton.innerHTML = `
+    <svg class="pause-btn">
+      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pause-button"></use>
+    </svg>
+  `;
 
   // Is shown when user has pressed 'Play Sound'
-  function muteSound() {
+  function playSound() {
     audioButton.innerHTML = '<svg class="pause-btn"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pause-button"></use></svg>';
     audioPlayer.play();
-    isActive = false;
   }
 
-  // Is shown when user has pressed 'Mute Sound'
-  function playSound() {
+  // Is shown when user has pressed 'Pause Sound'
+  function pauseSound() {
     audioButton.innerHTML = '<svg class="play-btn"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#play-button"></use></svg>';
     audioPlayer.pause();
-    isActive = true;
   }
 
-  // Mute sound if it is playing, else play sound
+  // Pause sound if it is playing, else play sound
   function handleSound() {
-    if (isActive) {
-      muteSound();
+    if (!audioPlayer.paused) {
+      pauseSound();
     } else {
       playSound();
     }
   }
 
+  // Slide in chatt form on page about god once passed first paragraph
+  function handleChatt() {
+    if (!firstParagraph) {
+      return;
+    }
+    const passedFirstParagraph = firstParagraph.offsetTop + firstParagraph.offsetHeight;
+    if ((window.innerHeight + window.scrollY) > passedFirstParagraph) {
+      chat.classList.add('slide-in');
+    } else {
+      chat.classList.remove('slide-in');
+    }
+  }
+
+  window.addEventListener('scroll', handleChatt);
   audioButton.addEventListener('click', handleSound);
 }());
